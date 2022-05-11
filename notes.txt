@@ -1,0 +1,4 @@
+#1-
+ setting the padding-top to be 50% of the width. In this case, height of the whole slider is 0 so the padding-top will take everything, width is 100% of view-width therefore the ratio of height and width will be 1:2 
+
+ 
