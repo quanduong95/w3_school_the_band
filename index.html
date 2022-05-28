@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="/1/assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+
 </head>
 <body>
     <div id="main">
@@ -35,11 +37,17 @@
 
             <!-- Search -->
             <div class="search-btn">
-                <i class=" search-icon ti-search"></i>
+                <i class="search-icon ti-search"></i>
+            </div>
+
+            <!--Responsive mobile  menu bar-->
+            <div class="menu-bar-icon ">
+                <i class="menu-icon ti-menu"></i>
             </div>
 
         </div>
         <div id="slider">
+            
             <div class="text-content">
                 <h2 class="text-heading">Chicago</h2>
                 <div class="text-description">
@@ -57,17 +65,17 @@
                 </p>
                 
                 <div class="row members-list">
-                    <div class="col col-3 text-center">
+                    <div class="s-full-col col col-3 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/members/member_1.jpg" alt="name" class="member-img">
                     </div>
 
-                    <div class="col col-3 text-center">
+                    <div class="s-full-col col col-3 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/members/member_1.jpg" alt="name" class="member-img">
                     </div>
 
-                    <div class="col col-3 text-center">
+                    <div class="s-full-col col col-3 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/members/member_1.jpg" alt="name" class="member-img">
                     </div>
@@ -89,7 +97,7 @@
                     </ul>
                     <!--Places-->
                     <div class="row place-list">
-                        <div class="col col-3">
+                        <div class="col margin-top-16  s-full-col col-3">
                             <img src="./assets/img/places/paris.jpg" alt="paris" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">Paris</h3>
@@ -99,11 +107,11 @@
                                 <div class="place-description">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
-                                <button  class="btn js-buy-ticket">Buy Tickets</button>
+                                <button  class="btn  s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
     
-                        <div class="col col-3">
+                        <div class="col margin-top-16  s-full-col col-3">
                             <img src="./assets/img/places/newyork.jpg" alt="New York" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">New York</h3>
@@ -113,11 +121,11 @@
                                 <div class="place-description">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
-                                <button  class="btn js-buy-ticket">Buy Tickets</button>
+                                <button  class="btn js-buy-ticket s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
     
-                        <div class="col col-3">
+                        <div class="col margin-top-16  s-full-col col-3">
                             <img src="./assets/img/places/sanfran.jpg" alt="San Francisco" class="place-img">
                             <div class="place-content">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -127,13 +135,13 @@
                                 <div class="place-description">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
-                                <button  class="btn js-buy-ticket">Buy Tickets</button>
+                                <button  class="btn  s-full-width js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                </div>
+            </div>
 
             <!--Contact section -->
             <div id="contact" class="content-section">
@@ -141,18 +149,18 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 
                 <div class="row contact-content">
-                    <div class="col col-2 contact-info">
+                    <div class="col col-2 s-full-col contact-info">
                         <p><i class="ti-location-pin"></i>Chicago, US</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                        <p><i class="ti-mobile"></i>Phone: <a class="contact-info__phone" href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="ti-email"></i>Email: <a class="contact-info__mail" href="mailto:mail@gmail.com">mail@mail.com</a></p>
                     </div>
-                    <div class="col col-2 contact-form">
+                    <div class="col col-2 s-full-col contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-2">
+                                <div class="col s-full-col col-2">
                                     <input required type="text" class="form-control" placeholder="Name">
                                 </div>
-                                <div class="col col-2">
+                                <div class="col s-full-col col-2">
                                     <input required type="email" class="form-control" placeholder="Email">
                                 </div>
                             </div>
@@ -161,7 +169,7 @@
                                     <input required type="text" class="form-control" placeholder="Message">
                                 </div>
                             </div>
-                            <input class="btn pull-right margin-top-16" type="submit" value="SEND">
+                            <input class="btn pull-right margin-top-16 s-full-width"  type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -183,7 +191,7 @@
             <p class="copyright">Powered by <a href="#">w3.css</a></p>
 
         </div>
-        <div class="modal js-modal open">
+        <div class="modal js-modal">
             <div class="modal-container">
                 <div class="modal-close js-modal-close">
                     <i class="ti-close">  
@@ -221,9 +229,14 @@
         </div>
     </div>
     <script>
+        const headerElement = document.getElementById("header");
+        const menuBtnElement = document.querySelector('.menu-bar-icon');
         const buyBtns = document.querySelectorAll('.js-buy-ticket');
         const modal = document.querySelector('.js-modal');
+        console.log(modal);
         const modalClose = document.querySelector('.js-modal-close');
+        const headerHeight = headerElement.clientHeight;
+
 
         function showBuyTicket(){
             modal.classList.add('open');
@@ -236,6 +249,35 @@
             buyBtn.addEventListener('click', showBuyTicket);
         }
         modalClose.addEventListener('click', hideBuyTicket);
+
+        menuBtnElement.onclick = function () {
+            const isClosed = headerElement.clientHeight === headerHeight;
+            if(isClosed) { 
+                header.style.height = 'auto';
+            
+            } else {
+                header.style.height = null;
+            
+            }
+        }
+
+
+
+
+        const menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(let i = 0; i < menuItems.length; i++) {
+            let menuItem = menuItems[i];
+            
+            menuItem.onclick = function (e) {
+                let isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    e.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+
+            }
+        }
     </script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact-info p {
+        line-height: 2.1875em;
+    }
+    
+    .social-media {
+        font-size: 3.2rem;
+    }   
+    
+    #footer .social-media a{
+        padding: 0 0.625em;
+    }
+
+    #footer .copyright a {
+        padding: 0.63em 0;
+    }
+}
+
+@media (min-width: 46.25em) {
+    #header .menu-bar-icon {
+        display: none;
+    }
+} 
+
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-full-col {
+        width: 100%;
+    }
+
+    #header  {
+        overflow: hidden;
+    }
+
+    #nav { 
+        display: block;
+    }
+
+    #nav > li {
+        display: block; 
+    }
+
+    #nav > li:first-child {
+        display: inline-block; 
+    }  
+
+    #nav > li >a {
+        display: block; 
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: var(--white);
+        padding: 0.25em 2.56em;
+        font-size: 1em;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .members-list {
+        margin: 3.125em 0;
+    }
+
+    #content .member-name {
+        padding-top: 1.25em;
+    }
+
+    #content .member-img  {
+        width: 60%;
+    }
+    
+    .contact-info > p:last-child {
+        margin-bottom: 1.25em;
+    }
+
+    .contact-form .form-control {
+        margin-bottom: 0.2em;
+    }
+
+    .social-media {
+        letter-spacing: 0.3215rem;
+    }
+} 
